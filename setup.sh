@@ -5,7 +5,7 @@ set -Eeuo pipefail
 set +x
 
 # packages
-sudo apt install -y fish,starship,neofetch
+sudo apt install -y fish starship neofetch
 
 # fish setup
 echo /usr/bin/fish | sudo tee -a /etc/shells
