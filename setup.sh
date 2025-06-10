@@ -10,7 +10,7 @@ sudo apt install -y fish neofetch
 # fish setup
 echo /usr/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/bin/fish
-cp -r ./config ~/.config
+cp -rf ./config/* ~/.config
 
 # nerd font for starship
 curl -fsSL https://raw.githubusercontent.com/getnf/getnf/main/install.sh | bash -s -- --silent
